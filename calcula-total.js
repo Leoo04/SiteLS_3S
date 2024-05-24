@@ -28,7 +28,7 @@ for (var i=0; i < clientes.length; i++){
         if (!validaUnitario(unitario)){
             clientes[i].querySelector(".info-total").textContent="Valor unitário é inválido!";
             //Colore o fundo dessa linha na cor light coral
-            clientes[i].style.backgroundColor = "lightcoral";
+            clientes[i].style.backgroundColor = "light coral";
         }
         else{
                 //Formata o VALOR UNITÁRIO
